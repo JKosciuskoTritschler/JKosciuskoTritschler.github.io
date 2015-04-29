@@ -3,6 +3,16 @@ body {
   padding-top: 50px;
 }
 
+#back_to_top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back_to_top a {
+	color: #333;
+}
+
 ul.nav, .jumbotron {
 	font-family: 'Arvo', courier, serif;
 }
@@ -13,6 +23,35 @@ ul.nav {
 
 #get-involved {
 	background-color: #f5f5f5;
+}
+
+.jumbotron #mce-EMAIL  {
+	height: 69px;
+	font-size: 36px;
+}
+
+.modal iframe {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.modal-content button.close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	border-radius: 24px;
+}
+
+.modal-dialog {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -173px;
 }
 
 .jumbotron {
