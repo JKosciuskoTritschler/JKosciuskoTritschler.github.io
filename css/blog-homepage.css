@@ -162,6 +162,10 @@ h6, .h6 {
 /*
  * Footer
  */
+ #modal-button {
+  position: absolute;
+  left: 572px;
+ }
 .top-nav i {
     float: right;
 }
