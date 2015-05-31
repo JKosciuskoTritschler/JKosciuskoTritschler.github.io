@@ -124,8 +124,12 @@ h6, .h6 {
   z-index: -2;
   position: fixed;
 }
+.container img {
+  z-index: -1;
+  position: fixed;
+}
 .container {
-  background-color: #A78B4A;
+  z-index: +1;
 }
 /*
  * Main column and sidebar layout
@@ -186,7 +190,9 @@ a {
 /*
  * Blog posts
  */
-
+.container a {
+  color: #428bca;
+}
 .blog-post {
   margin-bottom: 60px;
 }
