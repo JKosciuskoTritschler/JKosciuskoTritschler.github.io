@@ -141,11 +141,6 @@ h6, .h6 {
 /*
  * Blog posts
  */
-.map-canvas {
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-}
 .blog-post {
   margin-bottom: 60px;
 }
