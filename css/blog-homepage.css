@@ -84,7 +84,9 @@ h6, .h6 {
 /*
  * Blog name and description
  */
-
+.col-sm-6 .sub-blog {
+  height: 400px;
+}
 .blog-header {
   padding-top: 20px;
   padding-bottom: 20px;
