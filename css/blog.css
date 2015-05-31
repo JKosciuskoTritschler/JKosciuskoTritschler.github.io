@@ -124,7 +124,12 @@ h6, .h6 {
   position: fixed;
 }
 #parchment img {
+  position: fixed;
   z-index: -1;
+  width: 60%;
+  left: 15%;
+  top: -13%;
+  opacity: .9;
 }
 .container {
   z-index: +10;
@@ -163,6 +168,7 @@ a {
 .advert img {
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 90%;
 }
 .list-unstyled {
   font-size: 20px;

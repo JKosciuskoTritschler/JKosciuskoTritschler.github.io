@@ -124,12 +124,16 @@ h6, .h6 {
   z-index: -2;
   position: fixed;
 }
-.container img {
-  z-index: -1;
+#parchment img {
   position: fixed;
+  z-index: -1;
+  width: 60%;
+  left: 15%;
+  top: -13%;
+  opacity: .9;
 }
 .container {
-  z-index: +1;
+  z-index: +10;
 }
 /*
  * Main column and sidebar layout
@@ -168,6 +172,7 @@ a {
 .advert img {
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 90%;
 }
 .list-unstyled {
   font-size: 20px;
